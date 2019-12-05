@@ -1,0 +1,17 @@
+  <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand text-white" routerLink="/home">HOME</a>
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/adminpanel" >Info Panel</a>
+        </li>
+      </ul>
+      <button class="btn btn-danger my-2 my-sm-0" (click)="onLogout()">Logout</button>
+    </nav>
+    
+    <div class="jumbotron">
+    <h3><span class="label label-info">Hello, {{userFullname}}!</span></h3>
+    <p>This is the homepage of the football club. 
+      All available information for you is contained in the navigation menu. 
+      Have a nice day!</p>
+    </div>
+
