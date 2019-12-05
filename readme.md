@@ -1,5 +1,5 @@
 # WEB API
-##Model UserDetail.cs should be exist
+Model UserDetail.cs should be exist
 AppSettings.json you should change DevConnection and work with your db
 Add-Migration ""
 Update-Database
